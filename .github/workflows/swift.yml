@@ -17,7 +17,5 @@ jobs:
       - uses: swift-actions/setup-swift@v2
         with:
           swift-version: ${{ env.SWIFT_VERSION }}
-      - name: Install dependencies
-        run: dart pub get
       - name: Run tests
         run: swift test
