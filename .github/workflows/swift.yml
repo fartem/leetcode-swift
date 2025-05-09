@@ -7,14 +7,14 @@ on:
     branches: [ master ]
 
 env:
-  SWIFT_VERSION: "6.1"
+  SWIFT_VERSION: "6.1.0"
 
 jobs:
   tests:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v2
-      - uses: swift-actions/setup-swift@65540b95f51493d65f5e59e97dcef9629ddf11bf
+      - uses: swift-actions/setup-swift@v2
         with:
           swift-version: ${{ env.SWIFT_VERSION }}
       - name: Install dependencies
