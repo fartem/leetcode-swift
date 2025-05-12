@@ -1,10 +1,3 @@
-//
-//  26RemoveDuplicatesFromSortedArrayTest.swift
-//  leetcode-swift
-//
-//  Created by Artem Fomchenkov on 09.05.2025.
-//
-
 import XCTest
 import leetcode_swift
 
