@@ -1,10 +1,3 @@
-//
-//  26RemoveDuplicatesFromSortedArray.swift
-//  leetcode-swift
-//
-//  Created by Artem Fomchenkov on 09.05.2025.
-//
-
 public class RemoveDuplicatesFromSortedArray {
     public init() {}
 
