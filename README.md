@@ -15,4 +15,5 @@ Profile on LeetCode: [fartem](https://leetcode.com/fartem/).
 | Name                                         | Link to LeetCode                                                              | Link to solution                                                                  |
 | -------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 26. Remove Duplicates from Sorted Array      | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)    | [Link](./Sources/leetcode-swift/Easy/26RemoveDuplicatesFromSortedArray.swift)     |
+| 3285. Find Indices of Stable Mountains       | [Link](https://leetcode.com/problems/find-indices-of-stable-mountains/)       | [Link](./Sources/leetcode-swift/Easy/3285FindIndicesOfStableMountains.swift)      |
 | 3541. Find Most Frequent Vowel and Consonant | [Link](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | [Link](./Sources/leetcode-swift/Easy/3541FindMostFrequentVowelAndConsonant.swift) |
