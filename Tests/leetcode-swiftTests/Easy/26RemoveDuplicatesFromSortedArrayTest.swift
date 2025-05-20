@@ -20,15 +20,27 @@ class RemoveDuplicatesFromSortedArrayTest: XCTestCase {
         var nums: [Int] = [1, 1, 2]
         let result = solution.removeDuplicates(&nums)
 
-        XCTAssertEqual(result, 2)
-        XCTAssertEqual(nums, [1, 2, 2])
+        XCTAssertEqual(
+            result,
+            2
+        )
+        XCTAssertEqual(
+            nums,
+            [1, 2, 2]
+        )
     }
 
     func testDefaultTwo() {
         var nums: [Int] = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
         let result = solution.removeDuplicates(&nums)
 
-        XCTAssertEqual(result, 5)
-        XCTAssertEqual(nums, [0, 1, 2, 3, 4, 2, 2, 3, 3, 4])
+        XCTAssertEqual(
+            result,
+            5
+        )
+        XCTAssertEqual(
+            nums,
+            [0, 1, 2, 3, 4, 2, 2, 3, 3, 4]
+        )
     }
 }
